@@ -1,0 +1,162 @@
+{
+  "title": "Diseños de investigación",
+  "intro": "¡Bienvenidos a este blog! 🚀\n Aquí encontrarás información clara y sencilla sobre los diseños de investigación, qué son, para qué sirven, cuáles son sus tipos y cómo se aplican en distintos contextos.\nComprender los diseños de investigación es esencial porque determinan el camino que sigue un estudio, desde la forma de recolectar los datos hasta cómo se analizan los resultados. En otras palabras, el diseño es el mapa que guía al investigador para llegar a respuestas válidas y confiables.",
+  "whatIs": {
+    "title": "¿Qué es un diseño metodológico?",
+    "message1": "Los métodos de investigación, ya sean cualitativos, cuantitativos o mixtos, funcionan como una guía sistemática de pasos y procedimientos que permiten estudiar, comprender y explicar fenómenos de interés. \nSi quieres profundizar un poco más sobre los métodos de investigación, puedes visitar este",
+    "message2": "sitio web",
+    "message3": " donde se explican en detalle sus características y diferencias. \n Ahora bien, los diseños metodológicos surgen como la aplicación práctica de esos métodos. Es decir, son las estrategias o planes que se emplean para recopilar la información necesaria, analizarla y dar respuesta a un problema, fenómeno o hipótesis. En otras palabras, el diseño metodológico traduce la teoría del método en una ruta concreta de acción dentro del proceso investigativo."
+  },
+  "quantitative": {
+    "title": "Diseños Cuantitativos",
+    "description": "En esta ruta, el diseño de investigación busca planificar la estrategia para obtener la información necesaria que permita comprobar hipótesis o responder preguntas específicas.",
+    "types": [
+      {
+        "title": "Diseños experimentales",
+        "descriptions": "Estos implican modificar intencionalmente una o más variables independientes para observar sus efectos en las variables dependientes. Su objetivo es determinar relaciones de causa y efecto.",
+        "requirementsTitle": "Requisitos",
+        "requirements": [
+          "Manipulación de variables independientes.",
+          "Medición de los efectos sobre las variables dependientes.",
+          "Control riguroso del entorno experimental."
+        ],
+        "typesTitle": "Según Campbell y Stanley (1966) se clasifican en:",
+        "types": [
+          {
+            "title": "Preexperimentos",
+            "text": "Tienen un grado mínimo de control.",
+            "example": "Estudio de una nueva técnica de estudio aplicada a un solo grupo sin grupo de control."
+          },
+          {
+            "title": "Experimentos puros",
+            "text": "Control total sobre las variables y asignación aleatoria de grupos.",
+            "example": "Probar la efectividad de un fármaco asignando pacientes al azar entre grupo experimental y grupo control."
+          },
+          {
+            "title": "Cuasiexperimentos",
+            "text": "No hay asignación aleatoria, pero sí manipulación de variables.",
+            "example": "Evaluar el impacto de un programa educativo en dos colegios distintos sin asignación al azar."
+          }
+        ]
+      },
+      {
+        "title": "Diseños no experimentales",
+        "descriptions": "En estos no se manipulan las variables, sino que se observan los fenómenos tal como ocurren en su contexto natural. Se busca describir, analizar y relacionar variables sin intervención directa.",
+        "typesTitle": "Tipos de diseños no experimentales:",
+        "types": [
+          {
+            "title": "Transeccionales o transversales",
+            "text": "Analizan datos en un momento específico.",
+            "example": "Encuesta sobre hábitos alimenticios y su relación con el rendimiento académico.",
+            "typesTitle": "Estos a su vez se clasifican en:",
+            "types": [
+              "Exploratorios: examinan fenómenos poco estudiados.",
+              "Descriptivos: describen características de una población o fenómeno.",
+              "Correlacionales-causales: analizan relaciones entre variables."
+            ]
+          },
+          {
+            "title": "Longitudinales o evolutivos",
+            "text": "Estudian fenómenos a lo largo del tiempo.",
+            "example": "Estudio de seguimiento del desarrollo cognitivo en niños durante cinco años.",
+            "typesTitle": "Puden ser:",
+            "types": [
+              "De tendencia: analizan cambios en poblaciones generales.",
+              "Evolución de grupo: siguen un mismo grupo durante un tiempo.",
+              "De panel: estudian a los mismos individuos repetidamente."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "qualitative": {
+    "title": "Diseños Cualitativos",
+    "description": "En esta ruta, los diseños son más flexibles y abiertos, y se adaptan a las circunstancias. Buscan comprender significados, experiencias y contextos más que medir o predecir.",
+    "types": [
+      {
+        "title": "Teoría fundamentada",
+        "descriptions": "Desarrolla teorías a partir de los datos recolectados.",
+        "example": "Construir una teoría sobre la motivación laboral a partir de entrevistas a empleados."
+      },
+      {
+        "title": "Etnográfico",
+        "descriptions": "Estudia culturas, comunidades o grupos sociales en su ambiente natural.",
+        "example": "Análisis de las prácticas culturales en una comunidad indígena."
+      },
+      {
+        "title": "Narrativo",
+        "descriptions": "Se centra en las historias y vivencias de los participantes.",
+        "example": "Reconstrucción de la experiencia de docentes durante la pandemia."
+      },
+      {
+        "title": "Fenomenológico",
+        "descriptions": "Busca identificar los elementos en común de las experiencias humanas frente a un fenómeno.",
+        "example": "Estudio sobre las vivencias de pacientes diagnosticados con cáncer."
+      },
+      {
+        "title": "Investigación-acción",
+        "descriptions": "Combina investigación y acción práctica para generar cambios.",
+        "example": "Mejorar la convivencia escolar mediante talleres participativos y observación continua."
+      }
+    ]
+  },
+  "mixed": {
+    "title": "Diseños Mixtos",
+    "description": "El enfoque mixto combina los enfoques cualitativo y cuantitativo para obtener una comprensión más completa de los fenómenos. \n En este tipo de diseño, el investigador usa tanto datos numéricos como descripciones, observaciones o testimonios, integrando ambos tipos de información.",
+    "types": [
+      {
+        "title": "Diseño secuencial",
+        "descriptions": "Se aplica un enfoque después del otro (por ejemplo, primero uno cualitativo y luego cuantitativo)",
+        "example": "Realizar entrevistas a profundidad y luego aplicar encuestas basadas en los resultados de esas entrevistas."
+      },
+      {
+        "title": "Diseño concurrente",
+        "descriptions": "Ambos enfoques se aplican al mismo tiempo y los resultados se integran al final.",
+        "example": "Mientras se aplica un cuestionario estadístico, se realizan entrevistas complementarias."
+      },
+      {
+        "title": "Diseño transformativo",
+        "descriptions": "Utiliza un marco teórico o social que orienta la investigación (por ejemplo, estudios de género, educación inclusiva, etc.).",
+        "example": "Combinar datos estadísticos y testimonios de mujeres en investigaciones sobre equidad laboral."
+      }
+    ]
+  },
+  "symbolism": {
+    "title": "Simbología para comprender los diseños experimentales"
+  },
+  "experimentStepsTitle": "Pasos de un experimento",
+  "experimentSteps": [
+    "Identificar las variables independientes y dependientes.",
+    "Elegir el nivel de manipulación de las variables independientes y definir los tratamientos experimentales.",
+    "Medir las variables dependientes con instrumentos válidos y confiables.",
+    "Seleccionar una muestra adecuada según la hipótesis y objetivos del estudio.",
+    "Si se trabaja con personas, obtener su consentimiento informado.",
+    "Elegir el tipo de diseño experimental más apropiado.",
+    "Definir una estrategia para abordar los casos particulares.",
+    "En experimentos puros, dividir los grupos al azar; en cuasiexperimentos, analizar cuidadosamente los grupos ya existentes.",
+    "Realizar las prepruebas, tratamientos y postpruebas, e interpretar los resultados."
+  ],
+  "complement": {
+    "title": "Técnicas e instrumentos de recolección de datos",
+    "message": "Para obtener la información necesaria sobre un fenómeno o problema de investigación, el investigador utiliza diferentes técnicas e instrumentos de recolección de datos. Estas herramientas le permiten reunir los datos necesarios para comprender mejor el objeto de estudio.",
+    "tecnicas": {
+      "title": "Técnicas de recolección de datos",
+      "message": "Hacen referencia a la manera en que se buscarán y reunirán los datos. Entre las más utilizadas se encuentran el cuestionario, la entrevista y la observación, ya que facilitan la recopilación de información de forma estructurada o abierta, según el tipo de estudio."
+    },
+    "instrumentos": {
+      "title": "Instrumentos de medición",
+      "message": "Los instrumentos de medición son los medios a través de los cuales se obtiene la información. Deben ser confiables, válidos y coherentes para garantizar resultados representativos y precisos. En resumen, un buen instrumento permite recolectar datos consistentes y evitar distorsiones en la medición."
+    }
+  },
+  "conclusionTitle": "Conclusión",
+  "conclusion": "Los diseños de investigación son el corazón del proceso científico, ya que definen cómo se recopila, analiza e interpreta la información. Comprender los diferentes tipos cuantitativos, cualitativos y mixtos, permite al investigador elegir la mejor estrategia para responder preguntas y construir conocimiento.",
+  "referencesTitle": "Referencias",
+  "references": {
+    "1": "Hernández, R.; Fernández, C y Baptista, P. (2003). Metodología de la investigación. Mc Graw Hill, tercera edición. México. ",
+    "11": "https://www-ebooks7-24-com.ibero.basesdedatosezproxy.com/stage.aspx?il=34866&pg=epubcfi(/6/6[data-uuid-32d93de442334acc81a507aa46bfad08]!/4/2[data-uuid-3a71e0943d1244cc81e911028aa3ca84]/2[P%c3%a1gina%20I]/1:0)&ed=",
+    "2": "Ñaupas Paitán, H. (2018). Capítulo IX. El diseño de investigación. En Ñaupas Paitán, H., Valdivia Dueñas, M. R., Palacios Vilela, J. J. y Romero Delgado, H. E., Metodología de la investigación cuantitativa-cualitativa y redacción de tesis. 5a. ed. (pp. 347-372). Ediciones de la U.",
+    "22": "https://www-ebooks7-24-com.ibero.basesdedatosezproxy.com/?il=29479&pg=1"
+  },
+  "contacto": "Contacto"
+}
